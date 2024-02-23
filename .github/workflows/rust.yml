@@ -18,6 +18,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: Get gcc
       run: sudo apt-get install -y gcc
+    - name: Get rust toolchain
+      run: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     - name: Build
       run: cargo build --verbose
     - name: Run tests
