@@ -2,6 +2,8 @@
 name = "clipboard-native"
 version = "0.1.0"
 edition = "2021"
+description = "Clipboard library supporting Windows, macOS, and Linux (X11 and Wayland)"
+license = "MIT"
 
 [lib]
 crate-type = ["staticlib"]
