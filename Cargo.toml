@@ -2,7 +2,9 @@
 name = "clipboard-native"
 version = "0.1.0"
 edition = "2021"
-description = "Clipboard library supporting Windows, macOS, and Linux (X11 and Wayland)"
+description = "Zero dependency clipboard library supporting Windows, macOS, and Linux (X11 and Wayland)"
+repository = "https://github.com/johansolbakken/clipboard-native"
+keywords = ["clipboard", "x11", "wayland", "windows", "macos"]
 license = "MIT"
 
 [lib]
